@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "dev": "cd packages/react-frontend && npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -10,5 +11,8 @@
   "description": "",
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
 }
